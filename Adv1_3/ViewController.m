@@ -23,5 +23,17 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(IBAction)baToView:(UIStoryboardSegue*)segue{
 
+    if ([segue.identifier isEqualToString:@"thirdToFirst"])
+    {
+        self.view.backgroundColor = [UIColor yellowColor];
+    }
+    else if ([segue.identifier isEqualToString:@"secondToFirst"])
+    {
+        self.view.backgroundColor = [UIColor blueColor];
+    }
+    NSLog(@"back to View ");
+
+}
 @end

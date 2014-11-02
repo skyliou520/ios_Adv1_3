@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ThirdViewController.h
 //  Adv1_3
 //
 //  Created by pw's air on 2014/11/2.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
--(IBAction)baToView:(UIStoryboardSegue*)segue;
+@interface ThirdViewController : UIViewController
 
 @end
-
